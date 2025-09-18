@@ -1,0 +1,98 @@
+
+/* Cores do Tema */
+:root{
+    --Primaria: #4f46ef;
+    --Secundaria: #7c3aed;
+    --Escuro: #0f172a;
+    --MaisEscusro: #0a0f1c;
+    --Claro: #e3e8f0;
+    --Vidro: rgba(255, 255, 255, 0.1)
+}
+
+
+/* Estilos Gerais */
+* {margin: 0%; padding: 0%; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+html {scroll-behavior: smooth;}
+body {background-color: var(--Escuro);color: var(--Claro);}
+h1 { font-size: 2.5rem; color: var(--Primaria); font-weight: bold; margin: 20px; text-align: center;}
+span {color:  var(--Primaria);}
+main, section {scroll-margin-top: 100px;}
+
+.navegacao{ position: fixed; top: 0%; padding: 1.5rem; background: rgba(15, 23, 42, 0.8); width: 100%; z-index: 100;}
+
+
+.menu {display: flex; justify-content: center; list-style: none; gap: 3rem;}
+.menu-link {text-decoration: none; color: var(--Claro); font-weight: 500; position: relative; padding: 0.5rem 0;}
+.menu-link::after {content: ""; height: 2px; width: 0; position: absolute; bottom: 0%; left: 0%; background: linear-gradient(90deg, var(--Primaria), var(--Secundaria)); transition: 0.5S ease;}
+.menu-link:hover::after {width: 100%;}
+
+
+.cabecalho { min-height: 130vh; display: flex; align-items: center; justify-content: center; flex-direction: column;}	
+.cabecalho-sub-titulo {font-size: 1.5rem; color: var(--Claro); animation: flutuar 5s ease-in-out infinite;}
+
+
+.foto-perfil { width: 300px;  height: 300px;  object-fit: cover; box-shadow: 0 0 20px rgba(79, 70, 229, 0.3); border-radius: 50%; border: 4px solid var(--Vidro); animation: flutuar 5s ease-in-out infinite; position: relative; top: 0; }
+
+
+.sobre {padding: 1rem 2rem;}
+.sobre-titulo { font-size: 3rem; color: var(--Claro); text-align: center; margin-bottom: 20px;}
+.sobre-caixa {padding: 2rem; max-width: 800px; margin: 0 auto; border-radius: 16px; border: 1px solid var(--Vidro); backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.05);}
+.sobre-paragrafo {text-align: left; font-size: 1.2rem;}
+.sobre-info { text-align: left; font-size: 1.2rem;}
+
+
+.contato {padding: 6rem 2rem;}
+.contatos-titulo { text-align: center; font-size: 2.5rem; margin-bottom: 50px;}
+.formulario-contatos { max-width: 600px; margin: 0% auto; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(5px); padding: 2rem; border: 1px solid var(--Vidro); border-radius: 16px;}
+.campo-form { width: 100%; padding: 1.5rem; background: rgba(255, 255, 255, 0.05); border-radius: 8px; color: var(--Claro); border: 1px solid var(--Vidro);}
+.campo-form:focus { border-color: var(--Primaria); box-shadow: 0 0 10px rgba(79, 70, 229, 0.3);}
+.grupo-form {margin-bottom: 1.5rem;}
+.botão-form { color: var(--Claro); background: linear-gradient(45deg, var(--Primaria), var(--Secundaria)); padding: 1rem 2rem; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%; transition: all 0.5s ease;}
+.botão-form:hover {transform: translateY(-4px); box-shadow: rgba(79, 70, 229, 0.4);}
+
+.particulas { position: fixed; top: 0%; left: 0%; width: 100%; height: 100%; z-index: -1; opacity: 2.5; background: radial-gradient(circle at 10% 20%, var(--Primaria) 0%, transparent 20%), radial-gradient(circle at 90% 80%, var(--Secundaria) 0%, transparent 20%),  var(--MaisEscusro);}
+
+.menu-icons{align-items: center;display: flex;justify-content: center;margin-top: 1rem;font-size: 2rem;gap: 1rem;text-decoration: none;}
+.menu-icons a,
+.menu-icons a:visited,
+.menu-icons a:hover,
+.menu-icons a:active {color: var(--Primaria);text-decoration: none;}
+.menu-icons i {color: var(--Primaria);}
+.menu-icons a {text-decoration: none; color: var(--Primaria); transition: transform 0.3s ease, color 0.3s ease;}
+.menu-icons i {font-size: 2rem;  color: var(--Primaria); transition: transform 0.3s ease, color 0.3s ease;}
+.menu-icons a:hover i { color: #ff4d4d;  transform: scale(1.2); }
+
+
+.sobre-info a {color: var(--Primaria);  text-decoration: none; font-weight: 500; transition: all 0.3s ease;}
+.sobre-info a:hover {color: #0077ff;  transform: scale(1.05);}
+.sobre-info i {margin-right: 6px;}
+
+
+.info-data span {color: gray;}
+.habil-info span { display: inline-block; margin: 5px; padding: 6px 12px; border: 2px solid rgba(0, 0, 0, 0.2); border-radius: 20px; background-color: rgba(0, 0, 0, 0.05); font-size: 14px; transition: 0.3s;}
+.habil-info span:hover { border-color: var(--Primaria); background-color: rgba(0, 0, 0, 0.1);}
+
+.footer p { font-size: 0.8rem; text-align: center; padding: 20px;}
+
+
+@media (max-width: 768px) {
+  .foto-perfil {
+    top: -100px; 
+  }
+}
+
+@media (min-width: 1024px) {
+    .foto-perfil {
+        margin-top: -120px; 
+        transform: translateY(-120px);
+    }
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
