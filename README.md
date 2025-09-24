@@ -52,7 +52,7 @@ AOS (Animate on Scroll) → Biblioteca para efeitos de rolagem <br> <br> <br>
 📍 Sessão com habilidades técnicas e pessoais <br>
 📍 Formação acadêmica detalhada <br>
 📍 Certificações em destaque <br>
-📍 Rodapé de contato com links sociais <br>
+📍 Rodapé de contato com links sociais <br> <br> <br>
 
 
 
