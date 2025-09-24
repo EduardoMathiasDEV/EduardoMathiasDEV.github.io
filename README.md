@@ -6,20 +6,20 @@ O objetivo é reunir em um só lugar todas as informações sobre minha jornada 
 
 ✨ Funcionalidades
 
-✅ Página inicial com foto, nome, cidade e título profissional
-✅ Seção “Sobre Mim” contando minha trajetória e objetivos
-✅ Seção de Habilidades (linguagens, frameworks, soft skills)
-✅ Seção Formação Acadêmica detalhando minha graduação e ensino médio
-✅ Seção Certificações com cursos relevantes
-✅ Seção de Contato com links para WhatsApp, GitHub, LinkedIn e e-mail
-✅ Botão de WhatsApp para contato direto
-✅ Animações dinâmicas com IntersectionObserver (efeito fade-in ao rolar a página)
+✅ Página inicial com foto, nome, cidade e título profissional <br>
+✅ Seção “Sobre Mim” contando minha trajetória e objetivos <br>
+✅ Seção de Habilidades (linguagens, frameworks, soft skills) <br>
+✅ Seção Formação Acadêmica detalhando minha graduação e ensino médio <br>
+✅ Seção Certificações com cursos relevantes <br>
+✅ Seção de Contato com links para WhatsApp, GitHub, LinkedIn e e-mail <br>
+✅ Botão de WhatsApp para contato direto <br>
+✅ Animações dinâmicas com IntersectionObserver (efeito fade-in ao rolar a página) <br>
 ✅ Design responsivo para desktop e mobile <br> <br> <br>
 
 📌 Estrutura do Projeto
 
-📂 index.html → Estrutura principal do site (seções, navegação e conteúdo)
-⚡ index.js → Scripts responsáveis por animações, efeitos e botão de contato WhatsApp
+📂 index.html → Estrutura principal do site (seções, navegação e conteúdo) <br>
+⚡ index.js → Scripts responsáveis por animações, efeitos e botão de contato WhatsApp <br>
 🎨 style.css → Estilização do site (cores, layout, responsividade, tipografia) <br> <br> <br>
 
 🛠️ Tecnologias Utilizadas
@@ -48,19 +48,18 @@ AOS (Animate on Scroll) → Biblioteca para efeitos de rolagem <br> <br> <br>
 
 📸 Prévia Visual
 
-📍 Cabeçalho com foto e título
-📍 Sessão com habilidades técnicas e pessoais
-📍 Formação acadêmica detalhada
-📍 Certificações em destaque
-📍 Rodapé de contato com links sociais
+📍 Cabeçalho com foto e título <br>
+📍 Sessão com habilidades técnicas e pessoais <br>
+📍 Formação acadêmica detalhada <br>
+📍 Certificações em destaque <br>
+📍 Rodapé de contato com links sociais <br>
 
 
 
 
 
-👨‍💻 Autor
+👨‍💻 Autor <br>
 
-Feito com dedicação por Eduardo M.
+Feito com dedicação por Eduardo M. <br>
 📚 Estudante de Engenharia de Software | 18 anos |
-Feito com dedicação por Eduardo M.
-📚 Estudante de Engenharia de Software | 18 anos | Apaixonado por tecnologia
+
